@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Windows.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Component\\Pages\\Style\\Windows.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Lights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Component\\Pages\\Style\\Lights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Room2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Component\\Pages\\Room2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Room1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Component\\Pages\\Style\\Room1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Lights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Component\\Pages\\Style\\Lights.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Windows.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Windows.css",
+              "RelativeDocumentMoniker": "Component\\Pages\\Style\\Windows.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Windows.css",
+              "RelativeToolTip": "Component\\Pages\\Style\\Windows.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-30T11:53:43.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Room1.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Room1.html",
               "RelativeDocumentMoniker": "Component\\Pages\\Room1.html",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Rooms.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Rooms.css",
               "RelativeDocumentMoniker": "Component\\Pages\\Style\\Rooms.css",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Room1.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Room1.css",
               "RelativeDocumentMoniker": "Component\\Pages\\Style\\Room1.css",
@@ -81,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Lights.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Lights.css",
               "RelativeDocumentMoniker": "Component\\Pages\\Style\\Lights.css",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Style\\Lights.css",
               "RelativeToolTip": "Component\\Pages\\Style\\Lights.css",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-30T11:16:57.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Room4.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Room4.html",
               "RelativeDocumentMoniker": "Component\\Pages\\Room4.html",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Room2.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Room2.html",
               "RelativeDocumentMoniker": "Component\\Pages\\Room2.html",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Room3.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Individual-UI-UX\\Component\\Pages\\Room3.html",
               "RelativeDocumentMoniker": "Component\\Pages\\Room3.html",

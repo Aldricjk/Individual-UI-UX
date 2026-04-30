@@ -18,8 +18,9 @@
 .toggle-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 70px;
-    gap: 10px;
+    gap: 100px;
     font-family: Arial, sans-serif;
 }
 
