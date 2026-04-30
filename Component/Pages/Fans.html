@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ceiling Fan Speed Control</title>
+    <link rel="stylesheet" href="Style/Air-condition.css">
+</head>
+<body>
+    <button class="back-btn" onclick="history.back()">← Back</button>
+
+    <h2>Slide To Change Ceiling Fan Speed</h2>
+
+    <div class="slider-container">
+        <input type="range" min="0" max="5" step="1" value="0" id="fanSlider">
+        <div class="speed-display">
+            Speed: <span id="fanValue">0</span>
+        </div>
+    </div>
+
+    <script>
+        const slider = document.getElementById("fanSlider");
+        const output = document.getElementById("fanValue");
+
+        slider.oninput = function () {
+            output.textContent = this.value;
+        };
+    </script>
+
+</body>
+</html>

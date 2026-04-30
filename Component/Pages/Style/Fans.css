@@ -1,0 +1,19 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slider-container {
+    width: 300px;
+    margin: auto;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.speed-display {
+    font-size: 24px;
+    margin-top: 10px;
+}

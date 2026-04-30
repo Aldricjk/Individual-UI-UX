@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Utility</title>
+    <link rel="stylesheet" href="Style/Utility.css">
+</head>
+<body>
+
+    <button class="back-btn" onclick="history.back()">← Back</button>
+
+    <h2>Weekly Energy Usage (kWh)</h2>
+
+    <div class="chart">
+        <svg viewBox="0 0 600 300">
+
+            <line x1="50" y1="10" x2="50" y2="250" class="axis" />
+            <line x1="50" y1="250" x2="580" y2="250" class="axis" />
+
+            <text x="40" y="250" font-size="12" fill="#333">0</text>
+            <text x="40" y="200" font-size="12" fill="#333">2</text>
+            <text x="40" y="150" font-size="12" fill="#333">4</text>
+            <text x="40" y="100" font-size="12" fill="#333">6</text>
+            <text x="40" y="50" font-size="12" fill="#333">8</text>
+            <text x="15" y="150"
+                  transform="rotate(-90 15 150)"
+                  text-anchor="middle"
+                  font-size="14"
+                  fill="#333">
+                Energy Usage(kWh)
+            </text>
+
+            <text x="50" y="270" font-size="12" text-anchor="middle">Mon</text>
+            <text x="120" y="270" font-size="12" text-anchor="middle">Tue</text>
+            <text x="190" y="270" font-size="12" text-anchor="middle">Wed</text>
+            <text x="260" y="270" font-size="12" text-anchor="middle">Thu</text>
+            <text x="330" y="270" font-size="12" text-anchor="middle">Fri</text>
+            <text x="400" y="270" font-size="12" text-anchor="middle">Sat</text>
+            <text x="470" y="270" font-size="12" text-anchor="middle">Sun</text>
+            <text x="320" y="290"
+                  text-anchor="middle"
+                  font-size="14"
+                  fill="#333">
+                Day
+            </text>
+
+            <polyline class="line"
+                      points="
+        50,200
+        120,150
+        190,220
+        260,160
+        330,190
+        400,170
+        470,130
+      " />
+
+        </svg>
+    </div>
+
+    <h2>Total energy Usage: 12.2kWh</h2>
+</body>
+</html>

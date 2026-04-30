@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Air-conditioner</title>
+    <link rel="stylesheet" href="Style/Air-condition.css">
+</head>
+<body>
+    <button class="back-btn" onclick="history.back()">← Back</button>
+
+    <h2>Slide To Change Air Conditioner Temperature</h2>
+
+    <div class="slider-container">
+        <input type="range" min="16" max="30" value="24" id="tempSlider">
+        <div class="temp-display">
+            <span id="tempValue">24</span>°C
+        </div>
+    </div>
+
+    <script>
+        const slider = document.getElementById("tempSlider");
+        const output = document.getElementById("tempValue");
+
+        slider.oninput = function () {
+            output.textContent = this.value;
+        };
+    </script>
+
+</body>
+</html>

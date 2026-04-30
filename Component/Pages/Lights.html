@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lights</title>
+    <link rel="stylesheet" href="Style/Lights.css">
+</head>
+<body>
+
+    <button class="back-btn" onclick="history.back()">← Back</button>
+
+    <div class="toggle-container">
+        <span>Lights:</span>
+
+        <label class="switch">
+            <input type="checkbox" id="toggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <script>
+        const toggle = document.getElementById("toggle");
+
+        toggle.addEventListener("change", () => {
+            console.log(toggle.checked ? "Lights ON" : "Lights OFF");
+        });
+    </script>
+
+</body>
+</html>
